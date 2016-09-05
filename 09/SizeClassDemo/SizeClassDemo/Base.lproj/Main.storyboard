@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="45c-Wu-bsz">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Two Trees-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SizeClassDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="giftset1" translatesAutoresizingMaskIntoConstraints="NO" id="OqC-tv-Thj">
+                                <rect key="frame" x="16" y="64" width="568" height="536"/>
+                            </imageView>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9h4-ii-XUo">
+                                <rect key="frame" x="0.0" y="551" width="600" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="FoK-5k-v4w"/>
+                                    <tabBarItem systemItem="contacts" id="mXH-7b-nOd"/>
+                                    <tabBarItem systemItem="bookmarks" id="BYP-hd-Y6R"/>
+                                    <tabBarItem systemItem="mostRecent" id="KJL-8K-gjz"/>
+                                    <tabBarItem systemItem="more" id="cmA-nh-uS7"/>
+                                </items>
+                            </tabBar>
+                            <searchBar contentMode="redraw" placeholder="What are you looking for?" translatesAutoresizingMaskIntoConstraints="NO" id="ESr-UP-1lX">
+                                <rect key="frame" x="0.0" y="64" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ul4-VU-g0y">
+                                <rect key="frame" x="0.0" y="423" width="600" height="128"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="poG-vQ-y4a">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="128"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fT1-EV-ThA">
+                                            <rect key="frame" x="205" y="45" width="190" height="38"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                            <state key="normal" title="Buy Now for £49.95">
+                                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="fT1-EV-ThA" firstAttribute="centerY" secondItem="poG-vQ-y4a" secondAttribute="centerY" id="WX1-5K-1ZS"/>
+                                        <constraint firstItem="fT1-EV-ThA" firstAttribute="centerX" secondItem="poG-vQ-y4a" secondAttribute="centerX" id="lyW-oI-Emc"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Odx-JD-Cxr">
+                                        <variation key="heightClass=compact" constant="40"/>
+                                    </constraint>
+                                </constraints>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Two Trees Olive Oil Gift Basket" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkL-7H-Z3i">
+                                <rect key="frame" x="16" y="128" width="288" height="77"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.53000000000000003" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="egy-Al-pkV"/>
+                                    <constraint firstAttribute="width" constant="288" id="lhj-qE-oX7">
+                                        <variation key="heightClass=compact" constant="318"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="egy-Al-pkV"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                    <mask key="constraints">
+                                        <include reference="egy-Al-pkV"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ul4-VU-g0y" secondAttribute="bottom" constant="8" id="24i-Fs-RgE"/>
+                            <constraint firstItem="ESr-UP-1lX" firstAttribute="trailing" secondItem="9h4-ii-XUo" secondAttribute="trailing" id="31X-hD-bit"/>
+                            <constraint firstItem="OqC-tv-Thj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7gm-O4-Umt"/>
+                            <constraint firstItem="hkL-7H-Z3i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="BZ4-p0-eMc"/>
+                            <constraint firstItem="OqC-tv-Thj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Oak-kz-1Dc"/>
+                            <constraint firstItem="hkL-7H-Z3i" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="PJm-88-wqF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OqC-tv-Thj" secondAttribute="trailing" id="V0S-ng-AhK"/>
+                            <constraint firstItem="Ul4-VU-g0y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="Vle-HJ-AyC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ul4-VU-g0y" secondAttribute="trailing" constant="-16" id="cf7-1R-nMQ"/>
+                            <constraint firstItem="9h4-ii-XUo" firstAttribute="centerX" secondItem="OqC-tv-Thj" secondAttribute="centerX" id="eDn-Br-lkc"/>
+                            <constraint firstItem="hkL-7H-Z3i" firstAttribute="top" secondItem="ESr-UP-1lX" secondAttribute="bottom" constant="20" id="ecV-zX-isQ"/>
+                            <constraint firstItem="ESr-UP-1lX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hUH-8E-kb5"/>
+                            <constraint firstItem="ESr-UP-1lX" firstAttribute="leading" secondItem="9h4-ii-XUo" secondAttribute="leading" id="oPQ-Bk-P7k"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OqC-tv-Thj" secondAttribute="bottom" id="pvm-9x-Zne"/>
+                            <constraint firstItem="9h4-ii-XUo" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="qMO-EE-QcW"/>
+                            <constraint firstItem="9h4-ii-XUo" firstAttribute="top" secondItem="Ul4-VU-g0y" secondAttribute="bottom" id="sqv-1O-ct2"/>
+                            <constraint firstItem="9h4-ii-XUo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yvH-jg-eai"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="PJm-88-wqF"/>
+                                <exclude reference="24i-Fs-RgE"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <exclude reference="9h4-ii-XUo"/>
+                                <exclude reference="ESr-UP-1lX"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="31X-hD-bit"/>
+                                <exclude reference="hUH-8E-kb5"/>
+                                <exclude reference="oPQ-Bk-P7k"/>
+                                <exclude reference="eDn-Br-lkc"/>
+                                <exclude reference="qMO-EE-QcW"/>
+                                <exclude reference="sqv-1O-ct2"/>
+                                <exclude reference="yvH-jg-eai"/>
+                                <include reference="PJm-88-wqF"/>
+                                <exclude reference="ecV-zX-isQ"/>
+                                <include reference="24i-Fs-RgE"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Two Trees" id="wKb-sr-BNL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="952" y="135"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Uzk-Ct-oIx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="45c-Wu-bsz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gS6-yQ-lqK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="nNp-aE-S1M"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d3l-Rk-67T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="227" y="136"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="giftset1" width="1200" height="1288"/>
+    </resources>
+</document>

@@ -1,0 +1,24 @@
+let programmingLanguages = [
+("Swift","apple.com"),
+("PHP","php.net"),
+("HTML","w3c.org"),
+("CSS","w3c.org"),
+("JavaScript","w3c.org"),
+("Python","python.org"),
+("Ruby","ruby-lang.org"),
+("Java","java.com"),
+("ASP.NET","asp.net"), 
+("Perl","perl.org") ]
+
+
+let parsclick = [
+("HTML","www.parsclick.net"),
+("CSS","www.parsclick.net"),
+("PHP","www.parsclick.net"),
+("Java","www.parsclick.net"),
+("Swift","www.parsclick.net"),
+("Python","www.parsclick.net"),
+("JavaScript","www.parsclick.net"),
+("WordPress","www.parsclick.net"),
+("Joomla","www.parsclick.net"),
+("MySQL","www.parsclick.net") ]
